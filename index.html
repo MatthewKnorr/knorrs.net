@@ -3,28 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
     <title>knorrs.net</title>
-    <link rel="stylesheet" href="./styles.css?v=5" />
+    <link rel="stylesheet" href="./styles.css?v=20260511-2" />
   </head>
   <body>
     <div class="page-shell">
       <header class="site-header" aria-label="Site header">
-        <a class="brand" href="#" aria-label="knorrs.net home">
-          <span class="terminal-mark" aria-hidden="true">
-            <svg viewBox="0 0 28 28" role="img">
-              <path d="M8.5 6.5 16 14l-7.5 7.5" />
-              <path d="M16.5 21.5h7" />
-            </svg>
-          </span>
-          <span>knorrs.<strong>net</strong></span>
-        </a>
-        <a class="about-link" href="#about">About</a>
+        <div class="header-actions">
+          <button class="background-toggle" type="button" data-background-toggle aria-label="Change background image">
+            <span class="background-toggle__swatch" aria-hidden="true"></span>
+            <span data-background-label>Sky</span>
+          </button>
+        </div>
       </header>
 
       <main>
         <section class="hero" aria-labelledby="site-title">
           <div class="intro">
-            <h1 id="site-title">knorrs.<span>net</span></h1>
+            <h1 id="site-title" class="terminal-title" aria-label="Animated site title">
+              <span class="terminal-prompt" aria-hidden="true">&gt;</span><span class="terminal-output" data-terminal-output>HELLO WORLD</span><span class="terminal-cursor" aria-hidden="true"></span>
+            </h1>
             <p>A shared hub for independent developers.</p>
             <p>Explore our work, tools, and ideas.</p>
           </div>
@@ -40,24 +41,14 @@
                 complex problems with clean, efficient code.
               </p>
               <div class="actions">
-                <a href="#" aria-label="Tom Knorr portfolio">
+                <a role="link" aria-label="Tom Knorr portfolio" aria-disabled="true">
                   <span class="icon" data-icon="globe"></span>
                   <span>Portfolio</span>
                   <span class="arrow"></span>
                 </a>
-                <a href="#" aria-label="Tom Knorr GitHub">
-                  <span class="icon" data-icon="github"></span>
-                  <span>GitHub</span>
-                  <span class="arrow"></span>
-                </a>
-                <a href="#" aria-label="Tom Knorr LinkedIn">
+                <a href="https://www.linkedin.com/in/tommy-knorr/" target="_blank" rel="noopener noreferrer" aria-label="Tom Knorr LinkedIn">
                   <span class="icon" data-icon="linkedin"></span>
                   <span>LinkedIn</span>
-                  <span class="arrow"></span>
-                </a>
-                <a href="#" aria-label="Tom Knorr resume">
-                  <span class="icon" data-icon="resume"></span>
-                  <span>Résumé</span>
                   <span class="arrow"></span>
                 </a>
                 <a href="mailto:tom@knorrs.net" aria-label="Contact Tom Knorr">
@@ -78,24 +69,14 @@
                 one project at a time.
               </p>
               <div class="actions">
-                <a href="#" aria-label="Matthew Knorr portfolio">
+                <a role="link" aria-label="Matthew Knorr portfolio" aria-disabled="true">
                   <span class="icon" data-icon="globe"></span>
                   <span>Portfolio</span>
                   <span class="arrow"></span>
                 </a>
-                <a href="#" aria-label="Matthew Knorr GitHub">
-                  <span class="icon" data-icon="github"></span>
-                  <span>GitHub</span>
-                  <span class="arrow"></span>
-                </a>
-                <a href="#" aria-label="Matthew Knorr LinkedIn">
+                <a href="https://www.linkedin.com/in/matthew-knorr-b80a471b6" target="_blank" rel="noopener noreferrer" aria-label="Matthew Knorr LinkedIn">
                   <span class="icon" data-icon="linkedin"></span>
                   <span>LinkedIn</span>
-                  <span class="arrow"></span>
-                </a>
-                <a href="#" aria-label="Matthew Knorr resume">
-                  <span class="icon" data-icon="resume"></span>
-                  <span>Résumé</span>
                   <span class="arrow"></span>
                 </a>
                 <a href="mailto:matthew@knorrs.net" aria-label="Contact Matthew Knorr">
@@ -109,6 +90,6 @@
         </section>
       </main>
     </div>
-    <script src="script.js"></script>
+    <script src="script.js?v=20260511-2"></script>
   </body>
 </html>
